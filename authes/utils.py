@@ -38,7 +38,7 @@ def send_welcome_mail(email, full_name, username, account_type, user_id):
         </table>
         <p>Verify your account with the link below:</p>
         <p>
-            <a href="http://localhost:3000/auth/verify-account?user_id={user_id}" class="btn">
+            <a href="https://www.equinoxglobals.com/auth/verify-account?user_id={user_id}" class="btn">
                 Click here to verify your account
             </a>
         </p>
