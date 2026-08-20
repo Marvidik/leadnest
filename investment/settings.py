@@ -52,12 +52,24 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     "corsheaders",
+    'ckeditor',
     
 ]
 
 SIMPLEUI_TITLE = 'My Admin Panel'
 
-
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            ['TextColor', 'BGColor'],
+            ['NumberedList', 'BulletedList'],
+            ['Link', 'Unlink'],
+            ['Source'],
+        ],
+    },
+}
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
