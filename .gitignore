@@ -1,4 +1,5 @@
 /gvenv
+/venv
 .env
 /media
 /deposit-prove
