@@ -81,7 +81,7 @@ def process_matured_investments():
 
 from django.template.loader import render_to_string
 
-LOGO_URL = "https://res.cloudinary.com/dpuvtcctg/image/upload/v1782941110/5f1f92ad-e821-4512-b4b3-423f7021e1d4_nqqkfn.jpg"  # replace with your real logo URL
+LOGO_URL = "https://res.cloudinary.com/ds2ya2dzu/image/upload/v1790278951/WhatsApp_Image_2025-09-28_at_08.28.11_ebf69e75_khdgvx.jpg"  # replace with your real logo URL
 
 
 def send_deposit_mail(email, amount, user_name=None):

@@ -17,14 +17,14 @@ def generate_numeric_otp(length=4):
 
 from django.template.loader import render_to_string
  
-LOGO_URL = "https://res.cloudinary.com/dpuvtcctg/image/upload/v1782941110/5f1f92ad-e821-4512-b4b3-423f7021e1d4_nqqkfn.jpg"  # replace with your real logo URL
+LOGO_URL = "https://res.cloudinary.com/ds2ya2dzu/image/upload/v1790278951/WhatsApp_Image_2025-09-28_at_08.28.11_ebf69e75_khdgvx.jpg"  # replace with your real logo URL
  
  
 def send_welcome_mail(email, full_name, username, account_type, user_id):
     try:
-        subject = "Welcome to Equinox Global Assets"
+        subject = "Welcome to Leadnest Global Assets"
         message = f"""
-        <p>Thank you for joining <strong>Equinox Global Assets</strong> — your new home for smart, secure, and rewarding investments.</p>
+        <p>Thank you for joining <strong>Leadnest Global Assets</strong> — your new home for smart, secure, and rewarding investments.</p>
         <p>Here's a quick summary of your profile:</p>
         <table style="width:100%; border-collapse: collapse; margin-top: 16px; margin-bottom: 16px;">
             <tr>
@@ -38,7 +38,7 @@ def send_welcome_mail(email, full_name, username, account_type, user_id):
         </table>
         <p>Verify your account with the link below:</p>
         <p>
-            <a href="https://www.equinoxglobals.com/auth/verify-account?user_id={user_id}" class="btn">
+            <a href="https://www.leadnestglobal.com/auth/verify-account?user_id={user_id}" class="btn">
                 Click here to verify your account
             </a>
         </p>
